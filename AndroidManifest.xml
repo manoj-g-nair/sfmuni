@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.sfmuni" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/maps" android:label="@string/app_name">
+		<uses-library android:name="com.google.android.maps" />
+
+		<activity android:name="Main" android:label="@string/function">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="RouteChooser" android:label="@string/route">
+
+		</activity>
+		<activity android:name="Directions" android:label="@string/directions">
+		</activity>
+		<activity android:name="StopMap" android:label="@string/stopmap">
+		</activity>
+		<activity android:name="RouteMap" android:label="@string/routemap">
+		</activity>
+		<activity android:name="SearchMain" android:label="@string/search">
+		</activity>
+		<activity android:name="stops" android:label="@string/stops">
+		</activity>
+		<activity android:name="Prediction" android:label="@string/prediction">
+
+		</activity>
+		<activity android:name="NearestStopMap" android:label="@string/findNearest">
+
+		</activity>
+		<activity android:name="SearchResult" android:label="@string/searchresult">
+
+		</activity>
+		<activity android:name="SearchResultMap" android:label="@string/searchresult">
+
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+</manifest> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<Button android:text="show prediction of stops" 
+android:id="@+id/findStop" 
+android:layout_width="200dip" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="search for destination" 
+android:id="@+id/search" 
+android:layout_width="200dip" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="find the nearest stop" 
+android:id="@+id/findNearest" 
+android:layout_width="200dip" 
+android:layout_height="wrap_content"></Button>
+<Button android:text="exit" 
+android:id="@+id/exit" 
+android:layout_width="200dip" 
+android:layout_height="wrap_content"></Button>
+
+</LinearLayout>

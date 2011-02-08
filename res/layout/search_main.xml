@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/RelativeLayout01" 
+android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<EditText android:text="" 
+android:id="@+id/searchText" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:layout_marginTop="10dip"
+android:layout_marginLeft="10dip"
+android:layout_marginRight="10dip">
+</EditText>
+
+<Button android:text="search" 
+android:id="@+id/searchBtn" 
+android:layout_width="100dip" 
+android:layout_height="wrap_content"
+android:layout_below="@id/searchText"
+android:layout_marginLeft="10dip"
+android:layout_marginTop="20dip">
+</Button>
+</RelativeLayout>
+
