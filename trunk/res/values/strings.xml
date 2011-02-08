@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="route">choose a route</string>
+    <string name="function">SFMUNI</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">SFMUNI</string>
+<string name="directions">choose your direction</string>
+<string name="stops">choose your stop</string>
+<string name="stop_menu_1">show stops by name</string>
+<string name="stop_menu_2">show stops in map</string>
+<string name="prediction_menu_1">refresh</string>
+<string name="prediction_menu_2">show live map</string>
+<string name="prediction_menu_3">select another route</string>
+<string name="prediction_menu_4">select other direction</string>
+<string name="prediction_menu_5">select other stop</string>
+
+<string name="search_result_menu_1">show route to selected</string>
+<string name="search_result_menu_2">show all the routes</string>
+<string name="search_result_menu_3">show detailed info</string>
+<string name="stopmap">touch on the stop to show predictions</string>
+<string name="routemap">show the vehicles on map</string>
+<string name="prediction">show prediction for a stop</string>
+<string name="search">search your route</string>
+<string name="searchresult">touch on the result to show the detailed info</string>
+<string name="findNearest">touch on the stop to show the detailed info</string>
+</resources>
