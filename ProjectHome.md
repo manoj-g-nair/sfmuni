@@ -1,0 +1,2 @@
+This is an Android App project .You could use this app to check SF MUNI vehicle prediction data, search destination around you and search all the bus stops near you. The biggest feature of this app is that you could touch the stops on the map to see the predictions.
+version 2.2:fixed a bug,you can see the prediction data of the nearest stops now.
